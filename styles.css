@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+
+.holder {
+	display: grid;
+	width: 400px;
+	height: 400px;
+	grid-template-columns: 200px 200px;
+	grid-row: auto auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.item {
+	background-color: blue;
+	border-radius: 12px;
+	color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: 400;
+}
